@@ -87,7 +87,7 @@ if %opcao_core% equ v goto menu
 for %%I in (.) do set CurrDirName=%%~nxI
 copy c:\wget.exe d:\xampp\htdocs\%CurrDirName%
 copy c:\7z.exe d:\xampp\htdocs\%CurrDirName%
-wget https://github.com/thiagowip/basemp/archive/master.zip
+wget https://github.com/thiagosolstafir/basemp/archive/master.zip
 7z x master.zip
 xcopy /S/E d:\xampp\htdocs\%CurrDirName%\basemp-master\post\*.* d:\xampp\htdocs\%CurrDirName%\post\
 del /Q master.zip
@@ -105,7 +105,7 @@ goto menu_core
 for %%I in (.) do set CurrDirName=%%~nxI
 copy c:\wget.exe d:\xampp\htdocs\%CurrDirName%
 copy c:\7z.exe d:\xampp\htdocs\%CurrDirName%
-wget https://github.com/thiagowip/basemp/archive/master.zip
+wget https://github.com/thiagosolstafir/basemp/archive/master.zip
 7z x master.zip
 xcopy /S/E d:\xampp\htdocs\%CurrDirName%\basemp-master\includes\css\core\*.* d:\xampp\htdocs\%CurrDirName%\includes\css\core\
 del /Q master.zip
@@ -154,7 +154,7 @@ echo .
 for %%I in (.) do set CurrDirName=%%~nxI
 copy c:\wget.exe d:\xampp\htdocs\%CurrDirName%
 copy c:\7z.exe d:\xampp\htdocs\%CurrDirName%
-wget https://github.com/thiagowip/basemp/archive/master.zip
+wget https://github.com/thiagosolstafir/basemp/archive/master.zip
 7z x master.zip
 xcopy /S/E d:\xampp\htdocs\%CurrDirName%\basemp-master\includes\lib\*.* d:\xampp\htdocs\%CurrDirName%\includes\lib\
 del /Q master.zip
@@ -173,7 +173,7 @@ exit
 for %%I in (.) do set CurrDirName=%%~nxI
 copy c:\wget.exe d:\xampp\htdocs\%CurrDirName%
 copy c:\7z.exe d:\xampp\htdocs\%CurrDirName%
-wget https://github.com/thiagowip/basemp/archive/master.zip
+wget https://github.com/thiagosolstafir/basemp/archive/master.zip
 7z x master.zip
 mkdir implement
 xcopy /S/E d:\xampp\htdocs\%CurrDirName%\basemp-master\implement\*.* d:\xampp\htdocs\%CurrDirName%\implement\
