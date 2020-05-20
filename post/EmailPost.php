@@ -44,8 +44,7 @@ if ($_POST['g-recaptcha-response'] == "") {
 }
 
 // com recaptcha
-
-if (!$_POST['g-recaptcha-response']) {
+if ($_POST && $_POST['g-recaptcha-response']) {
   @require_once("recaptchalib.php");
   $secret = "6LdFfeoUAAAAAG5IVX5TDk4jAHEQwt4wG_QI8yA4";
   $response = null;
@@ -78,9 +77,7 @@ if (!$_POST['g-recaptcha-response']) {
       $_POST["g-recaptcha-response"]
     );
   }
-}
 
-if ($_POST && $_POST['g-recaptcha-response']) {
   require_once "implement/SendGrid.php";
   $send = new SendgridImplement();
 
