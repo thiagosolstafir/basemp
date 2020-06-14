@@ -1,14 +1,17 @@
-$global-responsive: 1190px;
-$global-font-size: 14px;
-$global-lineheight: 1.5;
+// COLORS
 $bgc: #fff;
 $c: #ff0000;
 $c2: #000;
 $ct: #363537;
-$bff: 'Roboto', sans-serif;
 
-// menu responsivo
+//menu mobile
 $lk-color: #000;
 $lk-color-active: #fff;
 $bg-color-active: $c;
 $hamb-color: lighten(grey, 30%);
+// END COLORS
+
+$global-responsive: 1190px;
+$global-font-size: 14px;
+$global-lineheight: 1.5;
+$bff: "Roboto", sans-serif;

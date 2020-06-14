@@ -11,7 +11,8 @@
     {
       "label": "Git Pull",
       "type": "shell",
-      "command": "git pull origin master"
+      "command": "git pull origin master",
+      "problemMatcher": []
     },
     {
       "label": "Git Push",
